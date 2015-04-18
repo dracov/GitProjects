@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <directory>
+            <inputFolder>C:\Aldo\Trabajo\Split\Input\</inputFolder>
+            <outputFolder>C:\Aldo\Trabajo\Split\Output\</outputFolder>
+            <archiveFolder>C:\Aldo\Trabajo\Split\</archiveFolder>
+            <errorFolder>C:\Aldo\Trabajo\Split\Error\</errorFolder>
+            
+            
+<!--            <inputFolder>C:\Aldo\OE2\Split\Input\</inputFolder>
+            <outputFolder>C:\Aldo\OE2\Split\Output\</outputFolder>
+            <archiveFolder>C:\Aldo\OE2\Split\</archiveFolder>
+            <errorFolder>C:\Aldo\OE2\Split\Error\</errorFolder>-->
+            
+            
+    </directory>
+</config>

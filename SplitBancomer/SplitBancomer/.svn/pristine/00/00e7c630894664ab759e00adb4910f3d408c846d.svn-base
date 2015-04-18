@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DebitPerso>   
+    <recordSize>5978</recordSize>
+    
+    <headerKeyName>REMESA</headerKeyName>
+    <headerKeyStart>169</headerKeyStart>
+    <headerKeyEnd>175</headerKeyEnd>
+    <headerKeyQtyStart>181</headerKeyQtyStart>
+    <headerKeyQtyEnd>187</headerKeyQtyEnd>
+    
+    
+    <!-- Agrupador 1. Después de agrupar por Remesa, agrupamos por sucursal. -->
+    <groupByStart_1Name>SUCURSAL</groupByStart_1Name>
+    <groupByStart_1>359</groupByStart_1>
+    <groupByEnd_1>363</groupByEnd_1>
+    
+    <recordLimit>70</recordLimit>
+    <extraRecords>10</extraRecords> <!-- This is only for configurations with mixes sucursales -->
+</DebitPerso>
+        
+

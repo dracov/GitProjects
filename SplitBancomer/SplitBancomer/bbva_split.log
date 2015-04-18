@@ -1,0 +1,9 @@
+2015-04-05 21:03:31 INFO  SplitBancomer:38 - Ambiente Desarrollo
+2015-04-05 21:03:31 INFO  SplitBancomer:47 - Configuration to load:DebitPerso
+2015-04-05 21:03:31 INFO  SplitBancomer:72 - Cargando configuracion Base.
+2015-04-05 21:03:31 INFO  SplitBancomer:82 - Cargando configuración de Debito Perso
+2015-04-05 21:03:31 INFO  DebitPersoSplit:47 - Building Debit Perso Split
+2015-04-05 21:03:31 INFO  DebitPersoSplit:65 - Name of the file to Split:DEBPCHD1_Y5_JF_mio_marrano900.NoPerso
+2015-04-05 21:03:31 INFO  DebitPersoSplit:66 - Getting first line of the file, so we can get the first header that is different.
+2015-04-05 21:03:31 INFO  DebitPersoSplit:69 - ExtraString in the header:A000001BCCBC
+2015-04-05 21:03:31 INFO  DebitPersoSplit:256 - HEADER FOUND, STRING KEY:REMESA:24357

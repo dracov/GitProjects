@@ -1,0 +1,1 @@
+java -Denv=prod -jar SplitBancomer.jar FinanziaVivePerso

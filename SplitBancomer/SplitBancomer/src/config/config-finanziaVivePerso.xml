@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<FinanziaVivePerso>   
+    <recordSize>5978</recordSize>
+    
+    <headerKeyName>REMESA</headerKeyName>
+    <headerKeyStart>169</headerKeyStart>
+    <headerKeyEnd>175</headerKeyEnd>
+    <headerKeyQtyStart>181</headerKeyQtyStart>
+    <headerKeyQtyEnd>187</headerKeyQtyEnd>
+    
+    <!-- Group by 1. After group by Remesa, We group by SUCURSAL. THIS IS FOR SPLIT ONLY.-->
+    <groupByStart_1Name>SUCURSAL</groupByStart_1Name>
+    <groupByStart_1>359</groupByStart_1>
+    <groupByEnd_1>363</groupByEnd_1>
+    
+    <sortingAction>1</sortingAction>
+    <groupByAndSortStart_1Name>MENSAJERIAS</groupByAndSortStart_1Name>
+    <groupByAndSortStart_1>1152</groupByAndSortStart_1>
+    <groupByAndSortEnd_1>1156</groupByAndSortEnd_1>
+    
+    <!-- Field 1. PAN, this is for exception purposes in the ACTION method. -->
+    <field_1Name>PAN</field_1Name>
+    <field_1Start>140</field_1Start>
+    <field_1End>156</field_1End>
+    
+    <recordLimit>1000</recordLimit>  <!-- how many records per file-->
+    <extraRecords>300</extraRecords> <!-- This is only for configurations with mixed sucursales -->
+    
+    <extraAction>0</extraAction> <!-- Make extra action with the file(Exceptions files, sorting only, and other actions)!-->
+    <exceptionFile>C:\Aldo\Trabajo\ExceptionViveFile\RENO_VIVE_TEST.csv</exceptionFile> <!-- Path to the file to use and make the exception process.-->
+    <outputFilePathWithoutExceptions>C:\Aldo\Trabajo\</outputFilePathWithoutExceptions>
+    
+    <splitAction>0</splitAction> <!--Split action if 0 it wont do anything. if 1 i will make de doSPlit() action--> 
+</FinanziaVivePerso>
+        
+
